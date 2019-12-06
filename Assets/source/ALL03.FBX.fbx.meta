@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 35c07d3b81792d244970811a0dd4ad3f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CATRigchest
+    100004: CATRigHub005
+    100006: CATRigLLeg1
+    100008: CATRigLLeg1 1
+    100010: CATRigLLeg2
+    100012: CATRigLLeg2 1
+    100014: CATRigLLeg3
+    100016: CATRigLLegAnkle
+    100018: CATRigLLegAnkle 1
+    100020: CATRigLLegDigit11
+    100022: CATRigLLegDigit11 1
+    100024: CATRigLLegPlatform
+    100026: CATRigLLegPlatform 1
+    100028: CATRigPelvis
+    100030: CATRigRLeg1
+    100032: CATRigRLeg1 1
+    100034: CATRigRLeg2
+    100036: CATRigRLeg2 1
+    100038: CATRigRLeg3
+    100040: CATRigRLegAnkle
+    100042: CATRigRLegAnkle 1
+    100044: CATRigRLegCollarbone
+    100046: CATRigRLegDigit11
+    100048: CATRigRLegDigit11 1
+    100050: CATRigRLegPlatform
+    100052: CATRigRLegPlatform 1
+    100054: CATRigSpine1
+    100056: CATRigSpine1 1
+    100058: CATRigSpine2
+    100060: CATRigSpine2 1
+    100062: CATRigSpine3
+    100064: CATRigSpine3 1
+    100066: CATRigTail1
+    100068: CATRigTail2
+    100070: CATRigTail3
+    100072: CATRigTail4
+    100074: Character001
+    100076: lion_mesh
+    100078: Object001
+    400000: //RootNode
+    400002: CATRigchest
+    400004: CATRigHub005
+    400006: CATRigLLeg1
+    400008: CATRigLLeg1 1
+    400010: CATRigLLeg2
+    400012: CATRigLLeg2 1
+    400014: CATRigLLeg3
+    400016: CATRigLLegAnkle
+    400018: CATRigLLegAnkle 1
+    400020: CATRigLLegDigit11
+    400022: CATRigLLegDigit11 1
+    400024: CATRigLLegPlatform
+    400026: CATRigLLegPlatform 1
+    400028: CATRigPelvis
+    400030: CATRigRLeg1
+    400032: CATRigRLeg1 1
+    400034: CATRigRLeg2
+    400036: CATRigRLeg2 1
+    400038: CATRigRLeg3
+    400040: CATRigRLegAnkle
+    400042: CATRigRLegAnkle 1
+    400044: CATRigRLegCollarbone
+    400046: CATRigRLegDigit11
+    400048: CATRigRLegDigit11 1
+    400050: CATRigRLegPlatform
+    400052: CATRigRLegPlatform 1
+    400054: CATRigSpine1
+    400056: CATRigSpine1 1
+    400058: CATRigSpine2
+    400060: CATRigSpine2 1
+    400062: CATRigSpine3
+    400064: CATRigSpine3 1
+    400066: CATRigTail1
+    400068: CATRigTail2
+    400070: CATRigTail3
+    400072: CATRigTail4
+    400074: Character001
+    400076: lion_mesh
+    400078: Object001
+    2100000: defaultMat
+    4300000: lion_mesh
+    7400000: walk
+    7400002: idle+attack01+attack02+roar+die+eat+Get_Hit+walk01+Run+jump_01 (1)
+    9500000: //RootNode
+    13700000: lion_mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat
+    second: {fileID: 2100000, guid: 426dacdc1e6ee7343a86d86af8d406f8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: idle+attack01+attack02+roar+die+eat+Get_Hit+walk01+Run+jump_01
+      firstFrame: 264
+      lastFrame: 288
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle+attack01+attack02+roar+die+eat+Get_Hit+walk01+Run+jump_01 (1)
+      takeName: idle+attack01+attack02+roar+die+eat+Get_Hit+walk01+Run+jump_01
+      firstFrame: 0
+      lastFrame: 316
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
