@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    float speed= 0.5f;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.position += transform.forward * speed;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.position -= transform.forward * speed;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(Vector3.up * speed);
+
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Rotate(Vector3.up * -speed);
+        }
     }
 }
