@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     float speed= 0.5f;
+    float rotateS = 2f;
 
     void Update()
     {
@@ -18,12 +19,12 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(Vector3.up * speed);
+            transform.Rotate(Vector3.up * rotateS);
 
         }
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Rotate(Vector3.up * -speed);
+            transform.Rotate(Vector3.up * -rotateS);
         }
     }
 }
